@@ -57,6 +57,39 @@
 	}
 
 /* Containers */
+	.devicon-svg {
+		width: 10%;
+		margin-left: 25px;
+	}
+
+	.devicon-article {
+		padding: 1em;
+		background-color: #fff;
+	}
+
+	@media only screen and (max-width: 768px) {
+		.devicon-svg {
+			width: 100%;
+		}
+	}
+
+	.row-devicon {
+  	display: flex;
+  	justify-content: center;
+  	margin-bottom: 10px;
+	}
+
+	.DOM-only-link {
+		display: none;
+	}
+
+	.SplitZees-link {
+		display: none;
+	}
+
+	.Memory-link {
+		display: none;
+	}
 
 	.container {
 		margin-left: auto;
@@ -1297,6 +1330,7 @@
 		.image img {
 			display: block;
 			width: 100%;
+			height: 250px;
 		}
 
 		.image.fit {
@@ -1324,6 +1358,42 @@
 				margin: 0 auto;
 				width: auto;
 			}
+
+			.image-tsi {
+				display: inline-block;
+				position: relative;
+			}
+
+				.image-tsi img {
+					display: block;
+					width: 100%;
+				}
+
+				.image-tsi.fit {
+					display: block;
+					width: 100%;
+				}
+
+				.image-tsi.featured {
+					display: block;
+					width: 100%;
+					margin: 0 0 2em 0;
+				}
+
+				.image-tsi.left {
+					float: left;
+					margin: 0 2em 2em 0;
+				}
+
+				.image-tsi.centered {
+					display: block;
+					margin: 0 0 2em 0;
+				}
+
+					.image-tsi.centered img {
+						margin: 0 auto;
+						width: auto;
+					}
 
 /* Button */
 
@@ -1689,11 +1759,11 @@
 
 /* Articles */
 
-	#top .image {
+	#top .image-tsi {
 		border-radius: 50%;
 	}
 
-		#top .image img {
+		#top .image-tsi img {
 			border-radius: 50%;
 		}
 
@@ -1782,7 +1852,7 @@
 			input[type="reset"],
 			button,
 			.button {
-				padding: 1em 2.35em 1em 2.35em;
+				padding: 1em 1.35em 1em 1.35em;
 				font-size: 1.1em;
 			}
 
@@ -1791,7 +1861,7 @@
 				input[type="reset"].big,
 				button.big,
 				.button.big {
-					font-size: 1.5em;
+					font-size: 1em;
 					letter-spacing: -0.025em;
 				}
 
@@ -1803,7 +1873,7 @@
 
 				.box.style1 {
 					padding: 3em 2em 3.5em 2em;
-					height: 500px;
+					height: 630px;
 				}
 
 					.box.style1 h3 {
@@ -1887,8 +1957,9 @@
 				}
 
 				#top p {
-					font-size: 1.5em;
+					font-size: 1em;
 					line-height: 1.75em;
+					font-style: italic;
 				}
 
 			#contact footer {
