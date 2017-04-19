@@ -73,6 +73,12 @@
 		}
 	}
 
+	@media only screen and (max-width: 400px) {
+		.devicon-svg {
+			width: 20%;
+		}
+	}
+
 	.row-devicon {
   	display: flex;
   	justify-content: center;
